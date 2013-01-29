@@ -1,0 +1,117 @@
+Paris Kolios
+------------
+
+----------
+
+**Software Engineer**
+
+*November 1984 – Present | Nationality, Greek*
+
+  "We are stuck with technology when what we really want is just stuff that works."
+
+  -Douglas Adams
+
+Sidebar with contact details (email, twitter, github, linkedin)
+
+Experience
+----------
+
+----------
+
+Software Engineer
+^^^^^^^^^^^^^^^^^
+**Delivery Hero Holding GmbH**
+
+*August 2011 – Present | Berlin, Germany*
+
+Delivery Hero Holding GmbH is an online food-ordering service operating in 12 countries. The Delivery Hero platform has over 22,000 restaurants across its worldwide network. Delivery Hero services are also accessible via mobile apps (iPhone, Android, Windows Phone).
+
+* Lead a team of 8 developers building features for the legacy Django platform
+* Design the next version of the platform following Clean Architecture principles, to allow better scaling of the software development team
+* Develop test-covered features for the legacy Django platform
+* Design, document and implement a RESTful API for the restaurant portal with Flask and SQLAlchemy
+* Develop internal code quality monitoring tool with Flask and Github API
+* Introduce continuous intergration (TravisCI) for the legacy Django platform
+
+
+Technical Co-Founder
+^^^^^^^^^^^^^^^^^^^^
+**Serverfarm.gr**
+
+*August 2007 – August 2011 | Athens, Greece*
+
+Serverfarm.gr was a company run by me and one more partner, that provided web and game server hosting services. Bootstrapped, built infrastructure and took care of customer support and sales.
+
+* Provide services for approximately 100 customers
+* Build servers and contract colocation centers
+* Automate account generation and installation processes
+* Integrate system monitoring with automated alerts
+
+
+Web Developer
+^^^^^^^^^^^^^
+**Freelancer**
+
+*July 2007 – August 2011 | Athens, Greece*
+
+Self employed, working on web development / design projects, with responsibilities ranging from initial design, backend and frontend implementation, to deployment and maintenance.
+
+* Develop B2B e-commerce platform using PHP / MySQL following MVC architecture
+* Develop Facebook student-teacher rating application using Python / Django and the Graph API
+* Customize and deploy e-commerce websites using PHP e-commerce solutions like CS-Cart and Cubecart
+* Customize and deploy clients websites using various PHP CMS like Wordpress, Drupal, etc.
+
+
+Technical Skills
+----------------
+
+----------
+
+Programming
+^^^^^^^^^^^
+* Python, Javascript, Bash, PHP, Ruby, C, C++, Java
+* HTML 5, CSS 3
+* Git
+
+Frameworks
+^^^^^^^^^^
+* Django, Flask, Pyramid
+* jQuery, AngularJS, BackboneJS
+* Twitter Bootstrap
+
+Databases / Caching
+^^^^^^^^^^^^^^^^^^^
+* PostgreSQL, MySQL, SQLite
+* Redis, MongoDB
+* Memcache
+
+Methodologies
+^^^^^^^^^^^^^
+* Test Driven Development, Behaviour Driven Development, Pair Programming
+* Continuous Integration
+* Agile, Scrum, Kanban
+
+
+Education
+---------
+
+----------
+
+Studies
+^^^^^^^
+
+**National and Kapodistrian University of Athens**
+
+Dept. of Informatics and Telecommunications
+
+*November 2004 – September 2010 | Athens, Greece*
+
+
+**Lycee Franco-Hellenique d'Athenes**
+
+*September 1996 – June 2002 | Athens, Greece*
+
+Languages
+^^^^^^^^^
+
+Greek (native), English (fluent), French (fluent)
