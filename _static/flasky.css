@@ -10,12 +10,13 @@
 
 
 @import url("basic.css");
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300);
 
 /* -- page layout ----------------------------------------------------------- */
 
 body {
-    font-family: 'Georgia', serif;
-    font-size: 1.20em;
+    font-family: 'Merriweather', Georgia, Times, serif;
+    font-size: 1.10em;
     background-color: white;
     color: #000;
     margin: 0;
@@ -98,7 +99,7 @@ div.sphinxsidebarwrapper p.logo {
 
 div.sphinxsidebar h3,
 div.sphinxsidebar h4 {
-    font-family: 'Garamond', 'Georgia', serif;
+    font-family: 'Merriweather', Georgia, Times, serif;
     color: #444;
     font-size: 24px;
     font-weight: normal;
@@ -134,7 +135,7 @@ div.sphinxsidebar ul {
 
 div.sphinxsidebar input {
     border: 1px solid #ccc;
-    font-family: 'Georgia', serif;
+    font-family: 'Merriweather', Georgia, Times, serif;
     font-size: 1em;
 }
 
@@ -156,16 +157,16 @@ div.body h3,
 div.body h4,
 div.body h5,
 div.body h6 {
-    font-family: 'Garamond', 'Georgia', serif;
+    font-family: 'Merriweather', Georgia, Times, serif;
     font-weight: normal;
     margin: 30px 0px 10px 0px;
     padding: 0;
 }
 
 
-div.body h1 { margin-top: 0; padding-top: 0; font-size: 200%; }
-div.body h2 { font-size: 150%; }
-div.body h3 { font-size: 130%; }
+div.body h1 { margin-top: 0; padding-top: 0; font-size: 150%; }
+div.body h2 { font-size: 130%; }
+div.body h3 { font-size: 120%; }
 div.body h4 { font-size: 110%; }
 div.body h5 { font-size: 100%; }
 div.body h6 { font-size: 100%; }
@@ -182,7 +183,7 @@ a.headerlink:hover {
 }
 
 div.body p, div.body dd, div.body li {
-    line-height: 1.4em;
+    line-height: 1.55em;
 }
 
 div.section { margin-bottom: 30px; }
@@ -207,7 +208,7 @@ dd div.admonition {
 }
 
 div.admonition p.admonition-title {
-    font-family: 'Garamond', 'Georgia', serif;
+    font-family: 'Merriweather', Georgia, Times, serif;
     font-weight: normal;
     font-size: 24px;
     margin: 0 0 10px 0;
@@ -533,40 +534,6 @@ a:hover tt {
     }
 }
 
-
-/* scrollbars */
-
-::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
-}
-
-::-webkit-scrollbar-button:start:decrement,
-::-webkit-scrollbar-button:end:increment {
-    display: block;
-    height: 10px;
-}
-
-::-webkit-scrollbar-button:vertical:increment {
-    background-color: #fff;
-}
-
-::-webkit-scrollbar-track-piece {
-    background-color: #eee;
-    -webkit-border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:vertical {
-    height: 50px;
-    background-color: #ccc;
-    -webkit-border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:horizontal {
-    width: 50px;
-    background-color: #ccc;
-    -webkit-border-radius: 3px;
-}
 
 /* misc. */
 
