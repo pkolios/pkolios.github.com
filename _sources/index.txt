@@ -1,6 +1,10 @@
 Paris Kolios
 ------------
 
+| Email: paris.k@gmail.com
+| Skype: enccccp
+| Location: Berlin, Germany
+
 ----------
 
 **Software Engineer**
@@ -11,7 +15,6 @@ Paris Kolios
 
   -Douglas Adams
 
-Sidebar with contact details (email, twitter, github, linkedin)
 
 Experience
 ----------
