@@ -43,7 +43,7 @@ Technical Co-Founder
 
 *August 2007 – August 2011 | Athens, Greece*
 
-Serverfarm.gr was a company run by me and one more partner, that provided web and game server hosting services. Bootstrapped, built infrastructure and took care of customer support and sales.
+Serverfarm.gr was founded by my business partner and I and provided web and game server hosting services. Bootstrapped, built infrastructure and took care of customer support and sales.
 
 * Provide services for approximately 100 customers
 * Build servers and contract colocation centers
