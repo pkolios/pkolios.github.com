@@ -27,10 +27,11 @@ Software Engineer
 
 *August 2011 – Present | Berlin, Germany*
 
-Delivery Hero Holding GmbH is an online food-ordering service operating in 22 countries. The Delivery Hero platform has over 35,000 restaurants across its worldwide network. Delivery Hero services are also accessible via mobile apps (iPhone, Android, Windows Phone).
+Delivery Hero Holding GmbH is an online food-ordering service operating in 23 markets across five continents. The Delivery Hero platform has over 60,000 restaurants across its worldwide network and more than 5 million meals are delivered globally every month. More than $285 million were invested into Delivery Hero up to date.
 
+* Design a global invoicing service solution and lead a team of 5 engineers through implementation and delivery
 * Deliver 3 new country websites within the first 3 months of working for Delivery Hero
-* Lead a team of 8 developers building features for the legacy Django platform
+* Lead a team of 8 engineers building features for the legacy Django platform
 * Design the next version of the platform following Clean Architecture principles, to allow better scaling of the software development team
 * Develop test-covered features for the legacy Django platform
 * Design, document and implement a RESTful API for the restaurant portal with Flask and SQLAlchemy
@@ -79,10 +80,12 @@ Programming
 
 Frameworks / Tools
 ^^^^^^^^^^^^^^^^^^
-* Django, Flask, Pyramid
+* Django, Tornado, Flask, Pyramid
+* SQLAlchemy
+* Celery, Python-RQ
 * ØMQ, RabbitMQ
 * jQuery, AngularJS, BackboneJS, D3.js
-* Twitter Bootstrap
+* Bootstrap
 
 Databases / Caching
 ^^^^^^^^^^^^^^^^^^^
