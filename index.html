@@ -24,68 +24,86 @@
       overflow: hidden;
       background-color: #0a0a0a;
     }
+    #glyph {
+      width:  100%;
+      height: 100%;
+    }
     </style>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready( function(){
-        var canvas = $('#three');
-        var ctx = canvas.get(0).getContext('2d');
-        var container = $(canvas).parent();
-        $(window).resize(respondCanvas);
-        function respondCanvas(){
-            canvas.attr('width', $(container).width());
-            canvas.attr('height', $(container).height());
-
-            ctx.save();
-            ctx.translate(ctx.canvas.width/2, ctx.canvas.height/2);
-            draw_cube(ctx, ctx.canvas.width/5, 0);
-            draw_cube(ctx, ctx.canvas.width/10, 0);
-            ctx.restore();
-        }
-        respondCanvas();
-
-    });
-
-    function draw_side(ctx, scale, colour){
-        ctx.save();
-        ctx.beginPath();
-        ctx.moveTo(0,0);
-        ctx.lineTo(Math.sqrt(3)/2 * scale, 0.5 * scale);
-        ctx.lineTo(0, scale);
-        ctx.lineTo(- Math.sqrt(3)/2 * scale, 0.5 * scale);
-        ctx.closePath();
-        ctx.fillStyle = colour;
-        ctx.fill();
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = "white";
-        ctx.stroke();
-        ctx.restore();
-    }
-
-    function draw_cube(ctx, scale, space){
-        ctx.save();
-        ctx.translate(0, -space);
-        ctx.rotate(180 * Math.PI / 180);
-        draw_side(ctx, scale, "#0a0a0a");
-        ctx.restore();
-
-        ctx.save();
-        ctx.translate(-space/2, 0);
-        ctx.rotate(60 * Math.PI / 180);
-        draw_side(ctx, scale, "#0a0a0a");
-        ctx.restore();
-
-        ctx.save();
-        ctx.translate(space/2, 0);
-        ctx.rotate(-60 * Math.PI / 180);
-        draw_side(ctx, scale, "#0a0a0a");
-        ctx.restore();
-    }
-    </script>
   </head>
-  <body>
-    <canvas id="three"></canvas>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/1.0.1/svg.min.js"></script>
+<body>
+    <div id="glyph"></div>
+    <script>
+        var get_bbox = function (selector) {
+            var el = document.querySelector(selector)
+            return el.getBoundingClientRect()
+        }
 
+        var create_cube = function (selector, scale) {
+            var bbox = get_bbox(selector)
+            var scale = bbox.width * scale
+            var center = {
+                x: bbox.left + bbox.width / 2,
+                y: bbox.top  + bbox.height / 2
+            }
+            return {
+                outline: [
+                    [center.x + Math.sqrt(3) / 2 * scale, center.y - 0.5 * scale],
+                    [center.x, center.y - scale],
+                    [center.x - Math.sqrt(3) / 2 * scale, center.y - 0.5 * scale],
+                    [center.x - Math.sqrt(3) / 2 * scale, center.y + 0.5 * scale],
+                    [center.x, center.y + scale],
+                    [center.x + Math.sqrt(3) / 2 * scale, center.y + 0.5 * scale],
+                ],
+                inner: [
+                    [center.x, center.y],
+                    [center.x + Math.sqrt(3) / 2 * scale, center.y - 0.5 * scale],
+                    [center.x, center.y],
+                    [center.x - Math.sqrt(3) / 2 * scale, center.y - 0.5 * scale],
+                    [center.x, center.y],
+                    [center.x, center.y + scale],
+                    [center.x, center.y],
+                ]
+            }
+        }
+
+        var draw = SVG('glyph').size('100%', '100%')
+        var images = [
+            'img/1.jpg',
+            'img/2.jpg',
+            'img/3.jpg',
+        ]
+
+        var loop = function () {
+            var path = images[Math.floor(Math.random()*images.length)];
+            var image = draw.image(path, get_bbox('#glyph').width, get_bbox('#glyph').height).attr({opacity: 0})
+            var cube = create_cube('#glyph', 0.13)
+            var stroke_opts = {
+                width: 1,
+                opacity: 0.7,
+                color: 'white',
+            }
+            var fill_opts = {
+                opacity: 0.5,
+                color: 'black',
+            }
+            var hex = draw.polygon().fill(fill_opts).stroke(stroke_opts)
+            var cross = draw.polygon().fill('none').stroke(stroke_opts)
+            hex.plot(cube.outline)
+            cross.plot(cube.inner)
+
+            image.animate(7000).attr({opacity: 1 }).after(function() {
+                this.animate(7000, '>', 10000).attr({opacity: 0}).after(function () {
+                    this.remove()
+                    hex.remove()
+                    cross.remove()
+                    loop()
+                })
+            })
+        }
+        loop()
+
+    </script>
     <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-38066489-1']);
