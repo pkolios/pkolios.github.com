@@ -21,11 +21,27 @@ Experience
 
 ----------
 
+
+Senior Software Engineer
+^^^^^^^^^^^^^^^^^^^^^^^^
+**Rhodecode GmbH**
+
+*October 2014 – Present | Berlin, Germany*
+
+RhodeCode Enterprise is a source code management solution for enterprises. Behind-the-firewall, for Git, Mercurial & Subversion, cross-platform.
+
+* Partial rewrite and overhaul of the main product's frontend
+* Implement server-side and vcs pull request merging feature
+* Develop integration extensions for Redmine and Jenkins CI
+* Improve web application security
+* Setup Jenking CI to automate quality checks
+
+
 Software Engineer
 ^^^^^^^^^^^^^^^^^
 **Delivery Hero Holding GmbH**
 
-*August 2011 – Present | Berlin, Germany*
+*August 2011 – September 2014 | Berlin, Germany*
 
 Delivery Hero Holding GmbH is an online food-ordering service operating in 23 markets across five continents. The Delivery Hero platform has over 60,000 restaurants across its worldwide network and more than 5 million meals are delivered globally every month. More than $285 million were invested into Delivery Hero up to date.
 
@@ -76,7 +92,7 @@ Programming
 ^^^^^^^^^^^
 * Python, Javascript, PHP, Ruby, Clojure, Bash, C, C++, Java
 * HTML 5, CSS 3
-* Git
+* Git, Mercurial
 
 Frameworks / Tools
 ^^^^^^^^^^^^^^^^^^
@@ -86,10 +102,11 @@ Frameworks / Tools
 * ØMQ, RabbitMQ
 * jQuery, AngularJS, BackboneJS, D3.js
 * Bootstrap
+* NixOS
 
 Databases / Caching
 ^^^^^^^^^^^^^^^^^^^
-* PostgreSQL, MySQL, SQLite
+* PostgreSQL, MySQL / MariaDB, SQLite
 * Redis, MongoDB
 * Memcache
 
