@@ -26,7 +26,7 @@ Senior Software Engineer
 ^^^^^^^^^^^^^^^^^^^^^^^^
 **Rhodecode GmbH**
 
-*October 2014 – Present | Berlin, Germany*
+*October 2014 – February 2016 | Berlin, Germany*
 
 RhodeCode Enterprise is a source code management solution for enterprises. Behind-the-firewall, for Git, Mercurial & Subversion, cross-platform.
 
@@ -102,18 +102,19 @@ Frameworks / Tools
 * ØMQ, RabbitMQ
 * jQuery, AngularJS, BackboneJS, D3.js
 * Bootstrap
-* NixOS
+* Docker, Ansible
+* Nix package manager
 
 Databases / Caching
 ^^^^^^^^^^^^^^^^^^^
 * PostgreSQL, MySQL / MariaDB, SQLite
-* Redis, MongoDB
+* Redis, MongoDB, Elasticsearch
 * Memcache
 
 Methodologies
 ^^^^^^^^^^^^^
 * Test Driven Development, Behaviour Driven Development, Pair Programming
-* Continuous Integration
+* Continuous Integration, Continuous Delivery
 * Agile, Scrum, Kanban
 
 
