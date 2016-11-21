@@ -28,8 +28,13 @@ Senior Software Engineer & Consultant
 
 *February 2016 - Present | Berlin, Germany*
 
-Freelance work for different international clients, including an NGO that builds health information systems for countries in Western Africa, 
-and company that offers software tools for creating cross platform TV applications.
+Freelance and consulting work for different international clients, including a team collaboration SaaS tool, 
+an NGO that builds health information systems for countries in Western Africa and company that offers software tools for creating cross platform TV applications.
+
+
+* CI setup, Python API development & software architecture consulting for `qlutter.io <https://qlutter.io/>`_.
+* Dev ops, Python development, JS development & software architecture consulting for `eHealth Africa <http://www.ehealthafrica.org/>`_.
+* Python API & Elasticsearch development for `smaf.tv <https://www.smaf.tv/>`_.
 
 
 Senior Software Engineer
