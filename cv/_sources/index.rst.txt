@@ -1,0 +1,134 @@
+Paris Kolios
+------------
+
+| Email: paris@enc.io
+| Skype: enccccp
+| Location: Berlin, Germany
+| Born in November 1984
+
+Experience
+----------
+Senior Software Engineer & Consultant
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Freelancer**
+
+*February 2016 - Present | Berlin, Germany*
+
+Freelance and consulting work for different international clients, including a team collaboration SaaS tool, 
+an NGO that builds health information systems for countries in Western Africa and company that offers software tools for creating cross platform TV applications.
+
+
+* CI setup, Python API development & software architecture consulting, AWS setup for `qlutter.io <https://qlutter.io/>`_.
+* Dev ops, Python development, JS development & software architecture consulting for `eHealth Africa <http://www.ehealthafrica.org/>`_.
+* Python API & Elasticsearch development for `smaf.tv <https://www.smaf.tv/>`_.
+
+
+Senior Software Engineer
+^^^^^^^^^^^^^^^^^^^^^^^^
+**Rhodecode GmbH**
+
+*October 2014 – February 2016 | Berlin, Germany*
+
+RhodeCode Enterprise is a source code management solution for enterprises. Behind-the-firewall, for Git, Mercurial & Subversion, cross-platform.
+
+* Partial rewrite and overhaul of the main product's frontend
+* Implement server-side and vcs pull request merging feature
+* Develop integration extensions for Redmine and Jenkins CI
+* Improve web application security
+* Setup Jenking CI to automate quality checks
+
+
+Tech / Team Lead - Software Engineer
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Delivery Hero Holding GmbH**
+
+*August 2011 – September 2014 | Berlin, Germany*
+
+Delivery Hero Holding GmbH is an online food-ordering service operating in 23 markets across five continents. The Delivery Hero platform has over 60,000 restaurants across its worldwide network and more than 5 million meals are delivered globally every month. More than $285 million were invested into Delivery Hero up to date.
+
+* Design a global invoicing service solution and lead a team of 5 engineers through implementation and delivery
+* Deliver 3 new country websites within the first 3 months of working for Delivery Hero
+* Lead a team of 8 engineers building features for the legacy Django platform
+* Design the next version of the platform following Clean Architecture principles, to allow better scaling of the software development team
+* Develop test-covered features for the legacy Django platform
+* Design, document and implement a RESTful API for the restaurant portal with Flask and SQLAlchemy
+* Develop internal code quality monitoring tool with Flask and Github API
+* Introduce continuous integration (TravisCI) for the legacy Django platform
+
+
+Technical Co-Founder
+^^^^^^^^^^^^^^^^^^^^
+**Serverfarm.gr**
+
+*August 2007 – August 2011 | Athens, Greece*
+
+Serverfarm.gr was founded by my business partner and I and provided web and game server hosting services. Bootstrapped, built infrastructure and took care of customer support and sales.
+
+* Provide services for approximately 100 customers
+* Build servers and contract colocation centers
+* Automate account generation and installation processes
+* Integrate system monitoring with automated alerts
+
+
+Web Developer
+^^^^^^^^^^^^^
+**Freelancer**
+
+*July 2007 – August 2011 | Athens, Greece*
+
+Self employed, working on web development / design projects, with responsibilities ranging from initial design, backend and frontend implementation, to deployment and maintenance.
+
+* Develop B2B e-commerce platform using PHP / MySQL following MVC architecture
+* Develop Facebook student-teacher rating application using Python / Django and the Graph API
+* Customize and deploy e-commerce websites using PHP e-commerce solutions like CS-Cart and Cubecart
+* Customize and deploy clients websites using various PHP CMS like Wordpress, Drupal, etc.
+
+
+Technical Skills
+----------------
+Programming
+^^^^^^^^^^^
+* Python, Javascript, Bash, PHP, Java, C, C++
+* HTML 5, CSS 3
+* Git, Mercurial
+
+Frameworks / Tools
+^^^^^^^^^^^^^^^^^^
+* Django, Flask, Pyramid, Tornado
+* jQuery, AngularJS, D3.js
+* Docker, Ansible
+* Travis, JenkinsCI, CirleCI
+
+Databases / Caching
+^^^^^^^^^^^^^^^^^^^
+* PostgreSQL, MySQL / MariaDB, SQLite
+* Redis, Elasticsearch, MongoDB, CouchDB
+* Memcache
+
+Methodologies
+^^^^^^^^^^^^^
+* Test Driven Development, Behaviour Driven Development, Pair Programming
+* Continuous Integration, Continuous Delivery
+* Agile, Scrum, Kanban
+
+
+Education
+---------
+Studies
+^^^^^^^
+
+**National and Kapodistrian University of Athens** (incomplete)
+
+Dept. of Informatics and Telecommunications
+
+*November 2004 – September 2010 | Athens, Greece*
+
+
+**Lycée Franco-Hellénique Eugène Delacroix**
+
+*September 1996 – June 2002 | Athens, Greece*
+
+Languages
+^^^^^^^^^
+
+Greek (native), English (fluent), French (fluent)
