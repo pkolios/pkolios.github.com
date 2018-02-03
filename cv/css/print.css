@@ -1,0 +1,7 @@
+@media print {
+    body { width: 100%; padding-left: 10%; }
+    h3 { margin-top: 0; }
+    article { padding: 0; }
+    section { padding-bottom: 0; }
+    section>ol, section>ul { width: 50%; }
+}
