@@ -58,7 +58,11 @@ tailwind-watch:
 # Build production assets
 [group('build')]
 build:
-    @echo "TODO"
+    @rm -rf ./dist
+    @cp -r ./src ./dist
+    @pnpx @tailwindcss/cli -i ./dist/css/input.css -o ./dist/css/output.css --minify
+    @rm ./dist/css/input.css
+
 
 # Deploy to github pages
 [group('deploy')]
