@@ -1,2 +1,0 @@
-User-agent: *
-Disallow: /paris_kolios_tex_cv.pdf
