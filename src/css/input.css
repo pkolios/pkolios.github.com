@@ -2,3 +2,6 @@
 @theme {
   --font-sans: InterVariable, sans-serif;
 }
+a{
+  @apply font-bold text-zinc-50 hover:text-teal-300 transition-colors duration-400 ease-in-out;
+}
